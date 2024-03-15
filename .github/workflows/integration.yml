@@ -9,7 +9,7 @@ jobs:
   coding-style:
     runs-on: ubuntu-latest
     container:
-      image: ghrc.io/epitech/coding-style-checker:latest
+      image: ghcr.io/epitech/coding-style-checker:latest
     steps:
 
       - name: Checkout GH repo
